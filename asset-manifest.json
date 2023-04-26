@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e7df6fd.chunk.css",
+    "main.js": "/static/js/main.02583008.chunk.js",
+    "main.js.map": "/static/js/main.02583008.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7eb266cb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7eb266cb.js.map",
+    "static/js/2.6533814b.chunk.js": "/static/js/2.6533814b.chunk.js",
+    "static/js/2.6533814b.chunk.js.map": "/static/js/2.6533814b.chunk.js.map",
+    "static/css/3.df879eac.chunk.css": "/static/css/3.df879eac.chunk.css",
+    "static/js/3.4b294d54.chunk.js": "/static/js/3.4b294d54.chunk.js",
+    "static/js/3.4b294d54.chunk.js.map": "/static/js/3.4b294d54.chunk.js.map",
+    "static/css/4.d7ceb645.chunk.css": "/static/css/4.d7ceb645.chunk.css",
+    "static/js/4.4b501e37.chunk.js": "/static/js/4.4b501e37.chunk.js",
+    "static/js/4.4b501e37.chunk.js.map": "/static/js/4.4b501e37.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.17017540f81659b77d99eb1b9f7f677a.js": "/precache-manifest.17017540f81659b77d99eb1b9f7f677a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.df879eac.chunk.css.map": "/static/css/3.df879eac.chunk.css.map",
+    "static/css/4.d7ceb645.chunk.css.map": "/static/css/4.d7ceb645.chunk.css.map",
+    "static/css/main.7e7df6fd.chunk.css.map": "/static/css/main.7e7df6fd.chunk.css.map",
+    "static/js/2.6533814b.chunk.js.LICENSE.txt": "/static/js/2.6533814b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/OverDeHaagse-Mediakit-hhs_nl_groen_hex.png": "/static/media/OverDeHaagse-Mediakit-hhs_nl_groen_hex.a3a4b0ae.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
+    "static/media/dtc.png": "/static/media/dtc.0f13ac13.png",
+    "static/media/game-datacards.png": "/static/media/game-datacards.7ce570a5.png",
+    "static/media/hybrit.png": "/static/media/hybrit.f8825fcf.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
+    "static/media/psm1.png": "/static/media/psm1.bcd66dbc.png",
+    "static/media/segbroek.ico": "/static/media/segbroek.759270c1.ico",
+    "static/media/skill.svg": "/static/media/skill.34409398.svg",
+    "static/media/TalkCard.scss": "/static/media/talksCardBack.13780cdd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7eb266cb.js",
+    "static/js/2.6533814b.chunk.js",
+    "static/css/main.7e7df6fd.chunk.css",
+    "static/js/main.02583008.chunk.js"
+  ]
+}
