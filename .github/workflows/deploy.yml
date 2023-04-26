@@ -1,17 +1,11 @@
-name: Build and Deploy
-env:
-  CI: false
-  GITHUB_USERNAME: ${{ github.repository_owner }}
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is automatically set by Github Actions
-  USE_GITHUB_DATA: "true"
+name: Deploy to Github Pages
 on:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: "0 12 * * 1" # see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
   workflow_call:
   workflow_dispatch:
+  
+permissions:
+  contents: write
+  pages: write
 
 jobs:
   deploy:
@@ -44,6 +38,5 @@ jobs:
         with:
           branch: gh-pages
           folder: build
-          GITHUB_TOKEN : ${{ secrets.GITHUB_TOKEN }} # This is provided by GitHub.
           git-config-name: github-actions
           git-config-email: github-actions@github.com
