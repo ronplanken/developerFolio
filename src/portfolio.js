@@ -190,7 +190,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -235,7 +235,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Certificaties 🏆 "),
+  title: emoji("Certificaten 🏆 "),
 
   achievementsCards: [
     {
@@ -306,7 +306,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Neemt contact op ☎️"),
+  title: emoji("Neem contact op ☎️"),
   subtitle:
     "Heb je een project waar je wat over kwijt wilt of wil je gewoon ff babbelen?",
   number: "+31-641460909",
