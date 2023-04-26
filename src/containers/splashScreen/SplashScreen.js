@@ -1,8 +1,8 @@
 import React, {useContext} from "react";
-import "./SplashScreen.css";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import {greeting, splashScreen} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import {splashScreen} from "../../portfolio";
+import "./SplashScreen.css";
 
 export default function SplashScreen() {
   const {isDark} = useContext(StyleContext);
@@ -12,9 +12,14 @@ export default function SplashScreen() {
         <DisplayLottie animationData={splashScreen.animation} />
       </div>
       <div className="splash-title-container">
-        <span className="grey-color"> &lt;</span>
-        <span className="splash-title">{greeting.username}</span>
-        <span className="grey-color">/&gt;</span>
+        <span className="splash-title">
+          <span className="logo-name">
+            <img
+              src={require("../../assets/images/kayma.png")}
+              alt={"Kayma"}
+            ></img>
+          </span>
+        </span>
       </div>
     </div>
   );

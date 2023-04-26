@@ -1,17 +1,16 @@
 import React, {useContext} from "react";
 import Headroom from "react-headroom";
-import "./Header.scss";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
-  greeting,
-  workExperiences,
-  skillsSection,
-  openSource,
+  achievementSection,
   blogSection,
+  openSource,
+  skillsSection,
   talkSection,
-  achievementSection
+  workExperiences
 } from "../../portfolio";
+import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+import "./Header.scss";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
@@ -26,9 +25,13 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
+          <span className="logo-name">
+            <img
+              src={require("../../assets/images/kayma.png")}
+              alt={"Kayma"}
+              className="logo-image"
+            ></img>
+          </span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -56,7 +59,7 @@ function Header() {
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">Certificaties</a>
             </li>
           )}
           {viewBlog && (
@@ -70,7 +73,7 @@ function Header() {
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">Contact</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
