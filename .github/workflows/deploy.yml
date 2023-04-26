@@ -16,6 +16,10 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: main
+      - name: Set NPM version
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
       - name: Check Yarn Cache
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
